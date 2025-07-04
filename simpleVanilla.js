@@ -1,4 +1,5 @@
 import http from 'http';
+import { URL } from "url";
 
 const PORT = 3001;
 
@@ -19,3 +20,17 @@ server.on("request", (req, res) => {
 server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+
+
+
+
+
+// explain about URL module
+// const myUrl = new URL('https://example.com/page?user=dan&age=30');
+
+// console.log(myUrl.searchParams.get('user')); // dan
+// console.log(myUrl.searchParams.has('age'));  // true
+
+// myUrl.searchParams.forEach((value, name) => {
+//     console.log(`${name}: ${value}`);
+// });
