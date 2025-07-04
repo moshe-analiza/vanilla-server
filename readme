@@ -1,0 +1,22 @@
+# Vanilla Node.js Server
+
+This project is a simple HTTP server built with vanilla Node.js, without any frameworks. It demonstrates how to handle basic HTTP requests and responses using only the core Node.js modules.
+
+## Features
+
+- Handles HTTP requests and responses
+- No external dependencies
+- Easy to understand and extend
+
+## Usage
+
+1. Clone the repository or copy the files to your project directory.
+2. Install [Node.js](https://nodejs.org/) if you haven't already.
+3. Run the server:
+
+    ```
+    node server.js
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` (or the port specified in your server file).
+
