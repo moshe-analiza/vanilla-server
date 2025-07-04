@@ -15,17 +15,17 @@ METHOD
 BODY // if exist
 HEADERS
 
-Example:
+Example output from req obj:
 console.log(req.url);      // '/home'
 console.log(req.method);   // 'GET'
 console.log(req.headers);  // { host: ..., user-agent: ... }
 
 response basic example:
-res.statusCode = 200;
-res.setHeader('Content-Type', 'text/plain');
+res.statusCode = 200; // default status
+res.setHeader('Content-Type', 'text/plain'); // application/json
 res.end('Hello from server!');
 
-.listen(port) 
+example method listen(port) 
 listen is a async function take my callback and turn on her when the action complete.
 server.listen(3000, () => {
   console.log('Server running on port 3000');

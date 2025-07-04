@@ -22,7 +22,7 @@ server.on("request", (req, res) => {
             url: req.url,
             headers: req.headers,
             body: body || {}
-        }, null, 2));
+        }, null, 2)); 
     })
     req.on('error', err => {
         console.error('Request error:', err);
@@ -31,6 +31,6 @@ server.on("request", (req, res) => {
     });
 })
 
-server.listen(PORT, () => {
+server.listen(PORT, () => { 
     console.log(`Server running at http://localhost:${PORT}`);
 });
